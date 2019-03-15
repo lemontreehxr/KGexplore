@@ -1,0 +1,49 @@
+{
+  "settings": {
+    "index.mapping.total_fields.limit": 5000,
+    "number_of_shards": 10,
+    "number_of_replicas": 0
+  },
+  "mappings": {
+    "entity": {
+      "properties": {
+        "name": {
+          "type": "text"
+        },
+        "attributes": {
+          "type": "text"
+        },
+        "categories": {
+          "type": "text"
+        },
+        "similarEntities": {
+          "type": "text"
+        },
+        "relatedEntities": {
+          "type": "text"
+        },
+        "subject": {
+          "type": "integer",
+          "index": "not_analyzed"
+        },
+        "pairs": {
+          "type": "nested",
+          "properties": {
+            "direction": {
+              "type": "integer",
+              "index": "not_analyzed"
+            },
+            "predicate": {
+              "type": "integer",
+              "index": "not_analyzed"
+            },
+            "object": {
+              "type": "integer",
+              "index": "not_analyzed"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+cn/edu/ruc/core/DataUtilTest.class
+cn/edu/ruc/controller/SearchControllerTest.class
+cn/edu/ruc/controller/ExploreControllerTest.class
+cn/edu/ruc/data/ConfigManagerTest.class

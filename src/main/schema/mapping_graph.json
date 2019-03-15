@@ -1,0 +1,30 @@
+{
+  "settings": {
+    "index.mapping.total_fields.limit": 5000,
+    "number_of_shards": 10,
+    "number_of_replicas": 0
+  },
+  "mappings": {
+    "graph": {
+      "properties": {
+        "subject": {
+          "type": "integer",
+          "index": "true"
+        },
+        "pairs": {
+          "type": "nested",
+          "properties": {
+            "predicate": {
+              "type": "integer",
+              "index": "true"
+            },
+            "object": {
+              "type": "integer",
+              "index": "true"
+            }
+          }
+        }
+      }
+    }
+  }
+}

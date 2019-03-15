@@ -1,0 +1,209 @@
+#main {
+    width: 950px;
+    height: 800px;
+    margin: auto;
+}
+
+#control-area {
+    width: 950px;
+    height: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+#control-area .task_tip {
+    width: 950px;
+    height: 800px;
+    margin: auto;
+}
+
+#show-group{
+    float: left;
+    width: 900px;
+    height: 200px;
+}
+
+#control-area .assess_tip {
+    width: 950px;
+    height: 800px;
+    margin: auto;
+}
+
+#tip-area {
+    width: 950px;
+    margin: 0px;
+    height: 210px;
+    font-size: small;
+    padding: 5px;
+}
+
+
+#input-text-area {
+    width: 950px;
+    margin-top: 5px;
+}
+
+#input-tag-area {
+    width: 950px;
+    margin-top: 5px;
+}
+
+#result-area {
+    width: 950px;
+    height: 650px;
+    margin-top: 5px;
+    overflow-y: scroll;
+}
+
+#profile-group {
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+
+#entity-group {
+    float: left;
+    width: 600px;
+    height: 200px;
+}
+
+#entity-function-group {
+    float: left;
+    width: 30px;
+    height: 200px;
+}
+
+#feature-group {
+    float: left;
+    width: 300px;
+    height: 400px;
+}
+
+#explanation-group {
+    float: left;
+    width: 600px;
+    height: 400px;
+}
+
+#explanation-function-group {
+    float: left;
+    width: 30px;
+    height: 400px;
+}
+
+#feature-function-group {
+    float: left;
+    width: 300px;
+    height: 50px;
+}
+
+#timeline{
+    float: left;
+    width: 630px;
+    height: 50px;
+    overflow-y: scroll;
+}
+
+#tip-area, #result-area, #profile-group, #feature-group, #feature-function-group, #entity-group, #entity-function-group, #explanation-group, #explanation-function-group, #timeline {
+    border-radius: 4pt;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.entity {
+    margin: 5px;
+    width: 110px;
+    height: 190px;
+    float: left;
+    cursor: pointer;
+}
+
+.entity img {
+    width: 110px;
+    height: 140px;
+}
+
+.entity p {
+    width: 110px;
+    height: 40px;
+    padding: 4px;
+    font-size: small;
+    word-break: break-all;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.feature {
+    width: 100%;
+    height: 40px;
+}
+
+.feature p {
+    height: 40px;
+    padding: 10px 2px 10px 2px;
+    margin: 0px;
+    font-size: small;
+    white-space: nowrap;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+.explanation_row {
+    height: 40px;
+    width: 600px;
+}
+
+.explanation {
+    float: left;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    font-size: small;
+    padding: 10px;
+    border-radius: 2pt;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.threshold {
+    float: left;
+    height: 400px;
+    width: 30px;
+    padding: 60px 5px 60px 5px;
+    font-size: small;
+}
+
+.function-horizon {
+    width: 30px;
+    height: 200px;
+    margin: 0px;
+    float: left;
+}
+
+.button-horizon {
+    margin: 0px;
+    text-align: center;
+    width: 30px;
+    height: 50px;
+    float: right;
+    border-radius: 2pt;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.function-vertical {
+    width: 300px;
+    height: 50px;
+    margin: 0px;
+    float: left;
+}
+
+.button-vertical {
+    text-align: center;
+    width: 75px;
+    height: 50px;
+    margin: 0px;
+    float: left;
+    border-radius: 2pt;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
